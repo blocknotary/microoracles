@@ -1,0 +1,96 @@
+.serviceContainer {
+	width: 300px;
+	height: 600px;
+	/*float: left;*/
+	margin: 30px auto;
+	background: rgb(31,34,37);
+}
+.serviceContainer.live {
+	cursor: pointer;
+}
+.serviceImageContainer {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+.serviceImageContainer.proofOfPhone {
+	background: transparent url("./../img/serviceLogo_proofOfPhone.png") no-repeat center center;
+}
+.serviceImageContainer.proofOfGithub {
+	background: transparent url("./../img/serviceLogo_proofOfGithub.png") no-repeat center center;
+}
+.serviceImageContainer.proofOfPhysicalAddress {
+	background: transparent url("./../img/serviceLogo_proofOfPhysicalAddress.png") no-repeat center center;
+}
+.serviceImageContainer.proofOfName {
+	background: transparent url("./../img/serviceLogo_proofOfName.png") no-repeat center center;
+}
+.serviceImageContainer.proofOfBank {
+	background: transparent url("./../img/serviceLogo_proofOfBank.png") no-repeat center center;
+}
+.serviceImageContainer.proofOf {
+	background: transparent url("./../img/serviceLogo_Empty.png") no-repeat center center;
+}
+.serviceInfoContainer {
+	width: 260px;
+	height: 260px;
+	background: white;
+	padding: 30px 20px 30px 20px;
+	text-align: center;
+}
+.serviceCompany {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: rgb(181, 181, 181);
+	margin-bottom: 20px;
+}
+.serviceTitle {
+	font-size: 30px;
+	font-weight: 600;
+	color: rgb(68, 68, 68);
+	margin-bottom: 30px;
+}
+.serviceDescription {
+	font-size: 14px;
+	color: rgb(181, 181, 181);
+	padding: 0 20px;
+}
+.serviceStatusContainer {
+	width: 300px;
+	height: 40px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-weight: 700;
+	line-height: 40px;
+}
+.serviceStatusContainer.live {
+	background: rgb(86, 184, 98); /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left, rgb(94,189,145), rgb(79,179,48)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, rgb(94,189,145), rgb(79,179,48)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, rgb(94,189,145), rgb(79,179,48)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, rgb(94,189,145), rgb(79,179,48)); /* Standard syntax */
+}
+.serviceStatusContainer.inProgress {
+	background: rgb(25, 132, 186); /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left, rgb(16,166,189), rgb(34,97,183)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, rgb(16,166,189), rgb(34,97,183)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, rgb(16,166,189), rgb(34,97,183)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, rgb(16,166,189), rgb(34,97,183)); /* Standard syntax */
+}
+.serviceStatusContainer.soon {
+	background: rgb(229, 122, 8); /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left, rgb(231,141,13), rgb(226,103,4)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, rgb(231,141,13), rgb(226,103,4)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, rgb(231,141,13), rgb(226,103,4)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, rgb(231,141,13), rgb(226,103,4)); /* Standard syntax */
+}
+.githubImg {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	right: 20px;
+	top: 20px;
+}

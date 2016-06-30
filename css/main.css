@@ -1,0 +1,61 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    /*-webkit-font-smoothing: antialiased;*/
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+.topContainer {
+	height: 100px;
+	background: white url("./../img/logo.png") no-repeat center center;
+}
+.mainContainer {
+	/*height: calc(100% - 100px);
+	height: -moz-calc(100% - 100px);
+	height: -webkit-calc(100% - 100px);*/
+	margin: 0;
+	padding: 0 0 30px 0;
+	height: auto;
+	background: rgb(31,34,37);
+	/*padding: 100px;*/
+	overflow: auto;
+}
+.tableRowContainer {
+	display: table;
+	width: 990px;
+	margin: 30px auto 0 auto;
+}
+.tableCellContainer {
+	display: table-cell;
+	width: 33.3% !important;
+}
+.counterContainer {
+	margin: 0 auto 0 auto;
+	width: 990px;
+}
+.findContainer {
+	margin: 0 auto 0 auto;
+	width: 990px;
+}
+.servicesCounterTitle {
+	color: white;
+	font-size: 24px;
+}
+.servicesCounterValue {
+	color: rgb(79, 161, 106);
+	font-size: 24px;
+	margin-left: 3px;
+}
+.findInput {
+	height: 100px;
+	font-size: 14px;
+	padding-left: 50px;
+	background: transparent url("./../img/search.png") no-repeat 0 center;
+	border: none;
+	outline: none;
+	color: white;
+}
