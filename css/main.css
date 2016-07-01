@@ -21,7 +21,7 @@ a {
 	height: -moz-calc(100% - 100px);
 	height: -webkit-calc(100% - 100px);*/
 	margin: 0;
-	padding: 0 0 30px 0;
+	padding: 0 0 40px 0;
 	height: auto;
 	background: rgb(31,34,37);
 	/*padding: 100px;*/
@@ -38,10 +38,16 @@ a {
 }
 .counterContainer {
 	margin: 40px auto 10px auto;
-	padding-left: 20px;
+	padding-left: 25px;
 	width: 990px;
-	display: table;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
+}
+.counterContainerCell {
+	display: block;
+	width: 100px !important;
+}
+.counterContainerCell.right {
+	margin-bottom: -20px;
 }
 .findContainer {
 	margin: 0 auto 0 auto;
@@ -50,16 +56,14 @@ a {
 .servicesCounterTitle {
 	color: white;
 	font-size: 24px;
-	display: table-cell;
-	vertical-align: middle;
-	width: 100px;
+	/*vertical-align: middle;
+	width: 100px;*/
 }
 .servicesCounterValue {
 	color: rgb(79, 161, 106);
 	font-size: 24px;
-	margin-left: 3px;
-	display: table-cell;
-	vertical-align: middle;
+	/*margin-left: 3px;
+	vertical-align: middle;*/
 }
 .findInput {
 	height: 100px;
