@@ -2,7 +2,7 @@
 	width: 300px;
 	height: 600px;
 	/*float: left;*/
-	margin: 30px auto;
+	margin: 0px auto;
 	background: rgb(31,34,37);
 }
 .serviceContainer.live {
@@ -33,7 +33,7 @@
 }
 .serviceInfoContainer {
 	width: 260px;
-	height: 260px;
+	height: 200px;
 	background: white;
 	padding: 30px 20px 30px 20px;
 	text-align: center;
@@ -41,7 +41,7 @@
 .serviceCompany {
 	font-size: 12px;
 	text-transform: uppercase;
-	color: rgb(181, 181, 181);
+	color: #888888;
 	margin-bottom: 20px;
 }
 .serviceTitle {
@@ -52,7 +52,7 @@
 }
 .serviceDescription {
 	font-size: 14px;
-	color: rgb(181, 181, 181);
+	color: #888888;
 	padding: 0 20px;
 }
 .serviceStatusContainer {
@@ -63,6 +63,7 @@
 	text-align: center;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
+	font-size: 14px;
 	font-weight: 700;
 	line-height: 40px;
 }
@@ -93,4 +94,7 @@
 	height: 40px;
 	right: 20px;
 	top: 20px;
+}
+.white {
+	color: white;
 }

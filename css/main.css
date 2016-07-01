@@ -9,6 +9,9 @@ body {
 a {
 	text-decoration: none;
 }
+.hidden {
+	display: none;
+}
 .topContainer {
 	height: 100px;
 	background: white url("./../img/logo.png") no-repeat center center;
@@ -34,8 +37,11 @@ a {
 	width: 33.3% !important;
 }
 .counterContainer {
-	margin: 0 auto 0 auto;
+	margin: 40px auto 10px auto;
+	padding-left: 20px;
 	width: 990px;
+	display: table;
+	vertical-align: middle;
 }
 .findContainer {
 	margin: 0 auto 0 auto;
@@ -44,11 +50,16 @@ a {
 .servicesCounterTitle {
 	color: white;
 	font-size: 24px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 100px;
 }
 .servicesCounterValue {
 	color: rgb(79, 161, 106);
 	font-size: 24px;
 	margin-left: 3px;
+	display: table-cell;
+	vertical-align: middle;
 }
 .findInput {
 	height: 100px;

@@ -1,7 +1,8 @@
 $(function() {
 	var tableContainer = $('.tableContainer');
 	var findInput = $('.findInput');
-	var servicesCounterValue = $('.servicesCounterValue')
+	var servicesCounterValue = $('.servicesCounterValue');
+	var githubImg = $('.githubImg');
 	var services = [
 		{"proof of phone": '<div class="tableCellContainer"> \
 					<a href="http://www.proofofphone.com" target="_blank"> \
@@ -167,6 +168,11 @@ $(function() {
 				}
 			}
 		//}
+	});
+
+	githubImg.click(function(e) {
+		e.preventDefault();
+		window.open($(this).attr("href"), "_blank");
 	});
 })
 
