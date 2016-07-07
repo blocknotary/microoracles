@@ -40,15 +40,15 @@ a {
 	margin: 40px auto 10px auto;
 	padding-left: 25px;
 	width: 990px;
-	/*vertical-align: middle;*/
+	height: 24px;
 }
-.counterContainerCell {
-	display: block;
+/*.counterContainerCell {
+	display: inline-block;
 	width: 100px !important;
 }
 .counterContainerCell.right {
 	margin-bottom: -20px;
-}
+}*/
 .findContainer {
 	margin: 0 auto 0 auto;
 	width: 990px;
@@ -56,6 +56,7 @@ a {
 .servicesCounterTitle {
 	color: white;
 	font-size: 24px;
+	line-height: 24px;
 	/*vertical-align: middle;
 	width: 100px;*/
 }
